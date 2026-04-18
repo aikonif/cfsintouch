@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Simple Playground | Color & Click</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>✨ Simple Playground</h1>
+        <div class="tagline">click, change, count — pure fun</div>
+
+        <!-- Color Box: click to randomize color -->
+        <div class="color-box" id="colorBox"></div>
+        
+        <!-- Display current color code -->
+        <div class="color-code" id="colorCode">#3b82f6</div>
+
+        <!-- Button group for color actions -->
+        <div class="button-group">
+            <button id="randomColorBtn" class="btn-primary">🎲 Random Color</button>
+            <button id="resetColorBtn">🔄 Reset Blue</button>
+        </div>
+
+        <!-- Counter section -->
+        <div class="counter-area">
+            <div class="counter-title">📊 CLICK COUNTER</div>
+            <div class="click-counter">
+                <div class="count-number" id="countDisplay">0</div>
+                <div class="counter-buttons">
+                    <button id="incrementBtn" class="small-btn">+1</button>
+                    <button id="decrementBtn" class="small-btn">-1</button>
+                    <button id="resetCountBtn" class="small-btn reset-btn">↺ Reset</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-note">
+            ⚡ click the color box &nbsp;&nbsp;|&nbsp;&nbsp; simple interactions
+        </div>
+    </div>
+
+    <!-- Link to external JavaScript -->
+    <script src="index.js"></script>
+</body>
+</html>
